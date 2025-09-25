@@ -1,0 +1,44 @@
+/**
+ * File Name: contact.css
+ * Description: CSS styles for the Contact Me component
+ * Student Name: Sivaprasad Gunji
+ * Student ID: 301546700
+ * Date: September 25, 2025
+ */
+
+.contact-container {
+  padding: 2rem;
+  max-width: 600px;
+  margin: auto;
+  font-family: 'Segoe UI', sans-serif;
+  text-align: center;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding: 0.75rem;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.contact-form button {
+  padding: 0.75rem;
+  font-size: 1rem;
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.contact-form button:hover {
+  background-color: #0056b3;
+}

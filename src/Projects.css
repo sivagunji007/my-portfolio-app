@@ -1,0 +1,41 @@
+/**
+ * File Name: Projects.css
+ * Description: CSS styles for the Projects component
+ * Student Name: Sivaprasad Gunji
+ * Student ID: 301546700
+ * Date: September 25, 2025
+ */
+
+.projects-container {
+  padding: 2rem;
+  font-family: 'Segoe UI', sans-serif;
+  max-width: 1000px;
+  margin: auto;
+  text-align: center;
+}
+
+.project-card {
+  margin-bottom: 2rem;
+  padding: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+}
+
+.project-card img {
+  width: 100%;
+  max-width: 600px;
+  height: auto;
+  border-radius: 5px;
+}
+
+.project-card h2 {
+  margin-top: 1rem;
+  color: #007BFF;
+}
+
+.project-card p {
+  margin-top: 0.5rem;
+  font-size: 1rem;
+  color: #333;
+}

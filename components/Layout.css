@@ -1,0 +1,52 @@
+/**
+ * File Name: Layout.css
+ * Description: CSS styles for the Layout component
+ * Student Name: Sivaprasad Gunji
+ * Student ID: 301546700
+ * Date: September 25, 2025
+ */
+
+
+.layout {
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.layout-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #007BFF;
+  color: white;
+  padding: 1rem 2rem;
+}
+
+.logo-section {
+  display: flex;
+  align-items: center;
+}
+
+.site-logo {
+  width: 40px;
+  height: 40px;
+  margin-right: 0.75rem;
+}
+
+.site-name {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.layout-nav a {
+  margin-left: 1rem;
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.layout-nav a:hover {
+  text-decoration: underline;
+}
+
+.layout-content {
+  padding: 2rem;
+}
